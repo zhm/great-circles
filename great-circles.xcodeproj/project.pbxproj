@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F68A7413ADC0DE00A3D152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7313ADC0DE00A3D152 /* UIKit.framework */; };
+		33F68A7613ADC0DE00A3D152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7513ADC0DE00A3D152 /* Foundation.framework */; };
+		33F68A7813ADC0DE00A3D152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */; };
+		33F68A7E13ADC0DE00A3D152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A7C13ADC0DE00A3D152 /* InfoPlist.strings */; };
+		33F68A8113ADC0DE00A3D152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8013ADC0DE00A3D152 /* main.m */; };
+		33F68A8413ADC0DE00A3D152 /* great_circlesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */; };
+		33F68A8713ADC0DE00A3D152 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A8513ADC0DE00A3D152 /* MainWindow.xib */; };
+		33F68A8A13ADC0DE00A3D152 /* great_circlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */; };
+		33F68A8D13ADC0DE00A3D152 /* great_circlesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33F68A6F13ADC0DE00A3D152 /* great-circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "great-circles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F68A7313ADC0DE00A3D152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33F68A7513ADC0DE00A3D152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33F68A7B13ADC0DE00A3D152 /* great-circles-Info.plist */ = {isa = PBXFileReference; path = "great-circles-Info.plist"; sourceTree = "<group>"; };
+		33F68A7D13ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33F68A7F13ADC0DE00A3D152 /* great-circles-Prefix.pch */ = {isa = PBXFileReference; path = "great-circles-Prefix.pch"; sourceTree = "<group>"; };
+		33F68A8013ADC0DE00A3D152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33F68A8213ADC0DE00A3D152 /* great_circlesAppDelegate.h */ = {isa = PBXFileReference; path = great_circlesAppDelegate.h; sourceTree = "<group>"; };
+		33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circlesAppDelegate.m; sourceTree = "<group>"; };
+		33F68A8613ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		33F68A8813ADC0DE00A3D152 /* great_circlesViewController.h */ = {isa = PBXFileReference; path = great_circlesViewController.h; sourceTree = "<group>"; };
+		33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circlesViewController.m; sourceTree = "<group>"; };
+		33F68A8C13ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/great_circlesViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F68A6C13ADC0DE00A3D152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F68A7413ADC0DE00A3D152 /* UIKit.framework in Frameworks */,
+				33F68A7613ADC0DE00A3D152 /* Foundation.framework in Frameworks */,
+				33F68A7813ADC0DE00A3D152 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F68A6413ADC0DE00A3D152 = {
+			isa = PBXGroup;
+			children = (
+				33F68A7913ADC0DE00A3D152 /* great-circles */,
+				33F68A7213ADC0DE00A3D152 /* Frameworks */,
+				33F68A7013ADC0DE00A3D152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F68A7013ADC0DE00A3D152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F68A6F13ADC0DE00A3D152 /* great-circles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F68A7213ADC0DE00A3D152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33F68A7313ADC0DE00A3D152 /* UIKit.framework */,
+				33F68A7513ADC0DE00A3D152 /* Foundation.framework */,
+				33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33F68A7913ADC0DE00A3D152 /* great-circles */ = {
+			isa = PBXGroup;
+			children = (
+				33F68A8213ADC0DE00A3D152 /* great_circlesAppDelegate.h */,
+				33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */,
+				33F68A8513ADC0DE00A3D152 /* MainWindow.xib */,
+				33F68A8813ADC0DE00A3D152 /* great_circlesViewController.h */,
+				33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */,
+				33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */,
+				33F68A7A13ADC0DE00A3D152 /* Supporting Files */,
+			);
+			path = "great-circles";
+			sourceTree = "<group>";
+		};
+		33F68A7A13ADC0DE00A3D152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33F68A7B13ADC0DE00A3D152 /* great-circles-Info.plist */,
+				33F68A7C13ADC0DE00A3D152 /* InfoPlist.strings */,
+				33F68A7F13ADC0DE00A3D152 /* great-circles-Prefix.pch */,
+				33F68A8013ADC0DE00A3D152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F68A6E13ADC0DE00A3D152 /* great-circles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F68A9013ADC0DE00A3D152 /* Build configuration list for PBXNativeTarget "great-circles" */;
+			buildPhases = (
+				33F68A6B13ADC0DE00A3D152 /* Sources */,
+				33F68A6C13ADC0DE00A3D152 /* Frameworks */,
+				33F68A6D13ADC0DE00A3D152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "great-circles";
+			productName = "great-circles";
+			productReference = 33F68A6F13ADC0DE00A3D152 /* great-circles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F68A6613ADC0DE00A3D152 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 33F68A6913ADC0DE00A3D152 /* Build configuration list for PBXProject "great-circles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33F68A6413ADC0DE00A3D152;
+			productRefGroup = 33F68A7013ADC0DE00A3D152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F68A6E13ADC0DE00A3D152 /* great-circles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F68A6D13ADC0DE00A3D152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F68A7E13ADC0DE00A3D152 /* InfoPlist.strings in Resources */,
+				33F68A8713ADC0DE00A3D152 /* MainWindow.xib in Resources */,
+				33F68A8D13ADC0DE00A3D152 /* great_circlesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F68A6B13ADC0DE00A3D152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F68A8113ADC0DE00A3D152 /* main.m in Sources */,
+				33F68A8413ADC0DE00A3D152 /* great_circlesAppDelegate.m in Sources */,
+				33F68A8A13ADC0DE00A3D152 /* great_circlesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33F68A7C13ADC0DE00A3D152 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F68A7D13ADC0DE00A3D152 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33F68A8513ADC0DE00A3D152 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F68A8613ADC0DE00A3D152 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F68A8C13ADC0DE00A3D152 /* en */,
+			);
+			name = great_circlesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F68A8E13ADC0DE00A3D152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		33F68A8F13ADC0DE00A3D152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		33F68A9113ADC0DE00A3D152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circles/great-circles-Prefix.pch";
+				INFOPLIST_FILE = "great-circles/great-circles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33F68A9213ADC0DE00A3D152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circles/great-circles-Prefix.pch";
+				INFOPLIST_FILE = "great-circles/great-circles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F68A6913ADC0DE00A3D152 /* Build configuration list for PBXProject "great-circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F68A8E13ADC0DE00A3D152 /* Debug */,
+				33F68A8F13ADC0DE00A3D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F68A9013ADC0DE00A3D152 /* Build configuration list for PBXNativeTarget "great-circles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F68A9113ADC0DE00A3D152 /* Debug */,
+				33F68A9213ADC0DE00A3D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F68A6613ADC0DE00A3D152 /* Project object */;
+}
