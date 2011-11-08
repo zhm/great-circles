@@ -1,20 +1,16 @@
 //
-//  great_circlesAppDelegate.m
+//  GreatCirclesAppDelegate.m
 //  great-circles
 //
-//  Created by Zac McCormick on 6/19/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Zac McCormick on 6/18/11.
 //
 
-#import "great_circlesAppDelegate.h"
+#import "GreatCirclesAppDelegate.h"
+#import "GreatCirclesViewController.h"
 
-#import "great_circlesViewController.h"
-
-@implementation great_circlesAppDelegate
-
+@implementation GreatCirclesAppDelegate
 
 @synthesize window=_window;
-
 @synthesize viewController=_viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

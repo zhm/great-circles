@@ -7,32 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335C7D2B13AE5AD100B6A2A5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 335C7D2A13AE5AD100B6A2A5 /* README.md */; };
 		33F68A7413ADC0DE00A3D152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7313ADC0DE00A3D152 /* UIKit.framework */; };
 		33F68A7613ADC0DE00A3D152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7513ADC0DE00A3D152 /* Foundation.framework */; };
 		33F68A7813ADC0DE00A3D152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */; };
 		33F68A7E13ADC0DE00A3D152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A7C13ADC0DE00A3D152 /* InfoPlist.strings */; };
 		33F68A8113ADC0DE00A3D152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8013ADC0DE00A3D152 /* main.m */; };
-		33F68A8413ADC0DE00A3D152 /* great_circlesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */; };
+		33F68A8413ADC0DE00A3D152 /* GreatCirclesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8313ADC0DE00A3D152 /* GreatCirclesAppDelegate.m */; };
 		33F68A8713ADC0DE00A3D152 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A8513ADC0DE00A3D152 /* MainWindow.xib */; };
-		33F68A8A13ADC0DE00A3D152 /* great_circlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */; };
-		33F68A8D13ADC0DE00A3D152 /* great_circlesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */; };
+		33F68A8A13ADC0DE00A3D152 /* GreatCirclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A8913ADC0DE00A3D152 /* GreatCirclesViewController.m */; };
+		33F68A8D13ADC0DE00A3D152 /* GreatCirclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F68A8B13ADC0DE00A3D152 /* GreatCirclesViewController.xib */; };
+		33F68A9413ADC14C00A3D152 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A9313ADC14C00A3D152 /* MapKit.framework */; };
+		33F68A9813ADC1AF00A3D152 /* GreatCircleArc.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A9713ADC1AF00A3D152 /* GreatCircleArc.m */; };
+		33F68A9A13ADC34100A3D152 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F68A9913ADC34100A3D152 /* CoreLocation.framework */; };
+		33F68A9D13ADCCEE00A3D152 /* GreatCircleArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F68A9C13ADCCEE00A3D152 /* GreatCircleArcView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		335C7D2A13AE5AD100B6A2A5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		33F68A6F13ADC0DE00A3D152 /* great-circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "great-circles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F68A7313ADC0DE00A3D152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		33F68A7513ADC0DE00A3D152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		33F68A7B13ADC0DE00A3D152 /* great-circles-Info.plist */ = {isa = PBXFileReference; path = "great-circles-Info.plist"; sourceTree = "<group>"; };
+		33F68A7B13ADC0DE00A3D152 /* great-circles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "great-circles-Info.plist"; sourceTree = "<group>"; };
 		33F68A7D13ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		33F68A7F13ADC0DE00A3D152 /* great-circles-Prefix.pch */ = {isa = PBXFileReference; path = "great-circles-Prefix.pch"; sourceTree = "<group>"; };
+		33F68A7F13ADC0DE00A3D152 /* great-circles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "great-circles-Prefix.pch"; sourceTree = "<group>"; };
 		33F68A8013ADC0DE00A3D152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33F68A8213ADC0DE00A3D152 /* great_circlesAppDelegate.h */ = {isa = PBXFileReference; path = great_circlesAppDelegate.h; sourceTree = "<group>"; };
-		33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circlesAppDelegate.m; sourceTree = "<group>"; };
+		33F68A8213ADC0DE00A3D152 /* GreatCirclesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreatCirclesAppDelegate.h; sourceTree = "<group>"; };
+		33F68A8313ADC0DE00A3D152 /* GreatCirclesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatCirclesAppDelegate.m; sourceTree = "<group>"; };
 		33F68A8613ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		33F68A8813ADC0DE00A3D152 /* great_circlesViewController.h */ = {isa = PBXFileReference; path = great_circlesViewController.h; sourceTree = "<group>"; };
-		33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circlesViewController.m; sourceTree = "<group>"; };
-		33F68A8C13ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/great_circlesViewController.xib; sourceTree = "<group>"; };
+		33F68A8813ADC0DE00A3D152 /* GreatCirclesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreatCirclesViewController.h; sourceTree = "<group>"; };
+		33F68A8913ADC0DE00A3D152 /* GreatCirclesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreatCirclesViewController.m; sourceTree = "<group>"; };
+		33F68A8C13ADC0DE00A3D152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GreatCirclesViewController.xib; sourceTree = "<group>"; };
+		33F68A9313ADC14C00A3D152 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		33F68A9613ADC1AF00A3D152 /* GreatCircleArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatCircleArc.h; sourceTree = "<group>"; };
+		33F68A9713ADC1AF00A3D152 /* GreatCircleArc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreatCircleArc.m; sourceTree = "<group>"; };
+		33F68A9913ADC34100A3D152 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33F68A9B13ADCCEE00A3D152 /* GreatCircleArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatCircleArcView.h; sourceTree = "<group>"; };
+		33F68A9C13ADCCEE00A3D152 /* GreatCircleArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreatCircleArcView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F68A9A13ADC34100A3D152 /* CoreLocation.framework in Frameworks */,
+				33F68A9413ADC14C00A3D152 /* MapKit.framework in Frameworks */,
 				33F68A7413ADC0DE00A3D152 /* UIKit.framework in Frameworks */,
 				33F68A7613ADC0DE00A3D152 /* Foundation.framework in Frameworks */,
 				33F68A7813ADC0DE00A3D152 /* CoreGraphics.framework in Frameworks */,
@@ -52,7 +66,9 @@
 		33F68A6413ADC0DE00A3D152 = {
 			isa = PBXGroup;
 			children = (
-				33F68A7913ADC0DE00A3D152 /* great-circles */,
+				335C7D2A13AE5AD100B6A2A5 /* README.md */,
+				33F68A9513ADC17F00A3D152 /* circles */,
+				33F68A7913ADC0DE00A3D152 /* app */,
 				33F68A7213ADC0DE00A3D152 /* Frameworks */,
 				33F68A7013ADC0DE00A3D152 /* Products */,
 			);
@@ -69,6 +85,8 @@
 		33F68A7213ADC0DE00A3D152 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33F68A9913ADC34100A3D152 /* CoreLocation.framework */,
+				33F68A9313ADC14C00A3D152 /* MapKit.framework */,
 				33F68A7313ADC0DE00A3D152 /* UIKit.framework */,
 				33F68A7513ADC0DE00A3D152 /* Foundation.framework */,
 				33F68A7713ADC0DE00A3D152 /* CoreGraphics.framework */,
@@ -76,17 +94,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		33F68A7913ADC0DE00A3D152 /* great-circles */ = {
+		33F68A7913ADC0DE00A3D152 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				33F68A8213ADC0DE00A3D152 /* great_circlesAppDelegate.h */,
-				33F68A8313ADC0DE00A3D152 /* great_circlesAppDelegate.m */,
+				33F68A8213ADC0DE00A3D152 /* GreatCirclesAppDelegate.h */,
+				33F68A8313ADC0DE00A3D152 /* GreatCirclesAppDelegate.m */,
 				33F68A8513ADC0DE00A3D152 /* MainWindow.xib */,
-				33F68A8813ADC0DE00A3D152 /* great_circlesViewController.h */,
-				33F68A8913ADC0DE00A3D152 /* great_circlesViewController.m */,
-				33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */,
+				33F68A8813ADC0DE00A3D152 /* GreatCirclesViewController.h */,
+				33F68A8913ADC0DE00A3D152 /* GreatCirclesViewController.m */,
+				33F68A8B13ADC0DE00A3D152 /* GreatCirclesViewController.xib */,
 				33F68A7A13ADC0DE00A3D152 /* Supporting Files */,
 			);
+			name = app;
 			path = "great-circles";
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,17 @@
 				33F68A8013ADC0DE00A3D152 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F68A9513ADC17F00A3D152 /* circles */ = {
+			isa = PBXGroup;
+			children = (
+				33F68A9613ADC1AF00A3D152 /* GreatCircleArc.h */,
+				33F68A9713ADC1AF00A3D152 /* GreatCircleArc.m */,
+				33F68A9B13ADCCEE00A3D152 /* GreatCircleArcView.h */,
+				33F68A9C13ADCCEE00A3D152 /* GreatCircleArcView.m */,
+			);
+			name = circles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +180,8 @@
 			files = (
 				33F68A7E13ADC0DE00A3D152 /* InfoPlist.strings in Resources */,
 				33F68A8713ADC0DE00A3D152 /* MainWindow.xib in Resources */,
-				33F68A8D13ADC0DE00A3D152 /* great_circlesViewController.xib in Resources */,
+				33F68A8D13ADC0DE00A3D152 /* GreatCirclesViewController.xib in Resources */,
+				335C7D2B13AE5AD100B6A2A5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F68A8113ADC0DE00A3D152 /* main.m in Sources */,
-				33F68A8413ADC0DE00A3D152 /* great_circlesAppDelegate.m in Sources */,
-				33F68A8A13ADC0DE00A3D152 /* great_circlesViewController.m in Sources */,
+				33F68A8413ADC0DE00A3D152 /* GreatCirclesAppDelegate.m in Sources */,
+				33F68A8A13ADC0DE00A3D152 /* GreatCirclesViewController.m in Sources */,
+				33F68A9813ADC1AF00A3D152 /* GreatCircleArc.m in Sources */,
+				33F68A9D13ADCCEE00A3D152 /* GreatCircleArcView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,12 +219,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		33F68A8B13ADC0DE00A3D152 /* great_circlesViewController.xib */ = {
+		33F68A8B13ADC0DE00A3D152 /* GreatCirclesViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				33F68A8C13ADC0DE00A3D152 /* en */,
 			);
-			name = great_circlesViewController.xib;
+			name = GreatCirclesViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +311,7 @@
 				33F68A9213ADC0DE00A3D152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
